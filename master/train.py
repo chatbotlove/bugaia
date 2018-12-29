@@ -39,7 +39,7 @@ parser.add_argument('--num_layers', type=int, default=3,
 # Optimization
 parser.add_argument('--seq_length', type=int, default=64,
                     help='RNN sequence length. Number of timesteps to unroll for.')
-parser.add_argument('--batch_size', type=int, default=50,
+parser.add_argument('--batch_size', type=int, default=35,
                     help="""minibatch size. Number of sequences propagated through the network in parallel.
                             Pick batch-sizes to fully leverage the GPU (e.g. until the memory is filled up)
                             commonly in the range 10-500.""")
